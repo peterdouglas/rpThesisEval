@@ -49,8 +49,8 @@ func main() {
 
     var exBundle g.Bundle
 
+    api := g.NewAPI("http://localhost:14265", nil)
     for i := 0; i < 100; i++ {
-        api := g.NewAPI("http://localhost:14265", nil)
         randVal := rand.Int63n(1279530283277761)
         trs[0].Value = randVal
         bdl, err := g.PrepareTransfers(api, seed, trs, nil, "")

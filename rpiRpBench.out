@@ -1,0 +1,9 @@
+BenchmarkBundle-4        	       1	16611713629 ns/op	 9309144 B/op	  162665 allocs/op
+--- BENCH: BenchmarkBundle-4
+	rpEval_test.go:61: The length of a bundle in Trytes is 17568
+BenchmarkBundleValid-4   	       1	19040644257 ns/op	10817888 B/op	  182333 allocs/op
+BenchmarkAddressing-4    	     100	  11101151 ns/op	    5237 B/op	      79 allocs/op
+BenchmarkGetBalances-4   	       1	1213029205 ns/op	  667112 B/op	   10026 allocs/op
+PASS
+ok  	github.com/peterdouglas/rpThesisEval	39.415s
+
